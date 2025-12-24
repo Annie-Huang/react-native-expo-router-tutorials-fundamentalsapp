@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       }}
     >
       <Text>Home page</Text>
+      <Link href='/about'>About</Link>
+      <Link href='/profile'>Profile</Link>
     </View>
   );
 }
