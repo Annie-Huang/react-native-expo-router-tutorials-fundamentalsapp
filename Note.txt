@@ -34,3 +34,7 @@ http://localhost:8082/products/3
 http://localhost:8082/products/best-sellers/playstation-5               << Catch-all segments: use app/products/[...rest].tsx
 http://localhost:8082/products/best-deals/black-friday/playstation-5    << Catch-all segments: use app/products/[...rest].tsx
 http://localhost:8082/products/search/playstation-5                     << Catch-all segments: use app/products/[...rest].tsx
+
+http://localhost:8082/missing-route     << default 'Unmatched Route' page.
+                                            This is more relevant to webpage, as in mobile app you can only navigate through <Link> in the app.
+http://localhost:8082/_sitemap          << site map
