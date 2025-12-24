@@ -30,6 +30,7 @@ http://localhost:8081/profile
 http://localhost:8082/products
 http://localhost:8082/products/3
 
+(below require more than 1 folder, if it is just 1 folder deaph, it will still go to app/products/[id].tsx file)
 http://localhost:8082/products/best-sellers/playstation-5               << Catch-all segments: use app/products/[...rest].tsx
 http://localhost:8082/products/best-deals/black-friday/playstation-5    << Catch-all segments: use app/products/[...rest].tsx
 http://localhost:8082/products/search/playstation-5                     << Catch-all segments: use app/products/[...rest].tsx
