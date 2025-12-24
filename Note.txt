@@ -38,4 +38,7 @@ http://localhost:8082/products/search/playstation-5                     << Catch
 http://localhost:8082/missing-route     << if 'app/+not-found.tsx' is there, go display this page.
                                             Otherwise, go to a builtin default 'Unmatched Route' page from expo-router.
                                             This is more relevant to webpage, as in mobile app you can only navigate through <Link> in the app.
+http://localhost:8082/profile/abc       << Scoped not found. Will check 'app/profile/+not-found.tsx' first over the 'app/+not-found.tsx' file.
+                                            If not found, follow the above rule.
+
 http://localhost:8082/_sitemap          << site map
