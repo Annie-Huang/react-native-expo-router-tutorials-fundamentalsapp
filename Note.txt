@@ -1,0 +1,18 @@
+Expo Router Tutorial
+(https://www.youtube.com/playlist?list=PLC3y8-rFHvwgVmqbtQkPDxkvDf6w5_eGA)
+
+https://github.com/gopinav/Expo-Router-Tutorials
+https://github.com/Annie-Huang/react-native-expo-router-tutorials-fundamentalsapp
+
+--------------------------------------------------------------------------------------------
+
+PS C:\react> npx create-expo-app@latest react-native-expo-router-tutorials-fundamentalsapp
+...
+- cd react-native-expo-router-tutorials-fundamentalsapp
+- npm run android
+- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+- npm run web
+
+
+
+
