@@ -17,3 +17,7 @@ PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npm run reset-pr
 Do you want to move existing files to /app-example instead of deleting them? (Y/n): n
 
 PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npx expo start
+
+http://localhost:8081/
+http://localhost:8081/about
+http://localhost:8081/profile
