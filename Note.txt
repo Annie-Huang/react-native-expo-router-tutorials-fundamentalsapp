@@ -18,6 +18,10 @@ Do you want to move existing files to /app-example instead of deleting them? (Y/
 
 PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npx expo start
 
+
+
+Notes:
+================================================================
 Catch-all segments
 [..param].tsx
 e.g.
@@ -39,6 +43,13 @@ If you only got _layout.tsx in 2 levels:
 <root>/(auth)/register.tsx      << layout 3
 
 ----------------------------------------------------
+
+asChild is to get the component to pass all its props to its first child component
+
+
+
+
+
 
 
 http://localhost:8081/

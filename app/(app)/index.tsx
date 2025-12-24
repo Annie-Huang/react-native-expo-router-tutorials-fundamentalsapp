@@ -1,5 +1,5 @@
 import { Link } from 'expo-router';
-import { Text, View, Pressable } from 'react-native';
+import { Text, View, Pressable, StyleSheet } from 'react-native';
 
 export default function Home() {
   return (
@@ -17,11 +17,24 @@ export default function Home() {
       <Link href='/products'>Products</Link>
       <Link href='/missing-route'>Missing route</Link>
 
+      {/* asChild is to get the component to pass all its props to its first child component */}
       <Link href='products/best-sellers/playstation' asChild>
-        <Pressable>
-          <Text>Playstation</Text>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Playstation</Text>
         </Pressable>
       </Link>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  button: {
+    backgroundColor: '#0ea5e9',
+    padding: 12,
+    borderRadius: 6,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+});
