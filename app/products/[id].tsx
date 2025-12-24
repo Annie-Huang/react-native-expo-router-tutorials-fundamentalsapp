@@ -5,6 +5,9 @@ import { useLocalSearchParams } from 'expo-router';
 
 const ProductDetail = () => {
   const { id } = useLocalSearchParams();
+  console.log(typeof id); // string
+  const numericId = parseInt(id as string, 10);
+  console.log(typeof numericId); // number
 
   return (
     <View style={styles.container}>
