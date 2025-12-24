@@ -42,3 +42,8 @@ http://localhost:8082/profile/abc       << Scoped not found. Will check 'app/pro
                                             If not found, follow the above rule.
 
 http://localhost:8082/_sitemap          << site map
+
+
+http://localhost:8081/forgot-password
+http://localhost:8081/login
+http://localhost:8081/register
