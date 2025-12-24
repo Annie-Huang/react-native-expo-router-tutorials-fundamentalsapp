@@ -18,6 +18,12 @@ Do you want to move existing files to /app-example instead of deleting them? (Y/
 
 PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npx expo start
 
+Catch-all segments
+[..param].tsx
+e.g.
+app/products/[...rest].tsx
+
+
 http://localhost:8081/
 http://localhost:8081/about
 http://localhost:8081/profile

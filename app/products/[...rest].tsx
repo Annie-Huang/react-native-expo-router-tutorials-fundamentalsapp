@@ -3,20 +3,18 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 
-const ProductDetail = () => {
-  const { id } = useLocalSearchParams();
-  // console.log(typeof id); // string
-  // const numericId = parseInt(id as string, 10);
-  // console.log(typeof numericId); // number
+const CatchAllProductDetails = () => {
+  const { rest } = useLocalSearchParams<{ rest: string[] }>();
 
   return (
     <View style={styles.container}>
-      <Text>Details about product with id: {id}</Text>
+      <Text>Catch all product details</Text>
+      <Text>Details about product at {rest.join('/')}</Text>
     </View>
   );
 };
 
-export default ProductDetail;
+export default CatchAllProductDetails;
 
 const styles = StyleSheet.create({
   container: {
