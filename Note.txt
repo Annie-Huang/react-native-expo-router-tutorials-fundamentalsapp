@@ -23,6 +23,23 @@ Catch-all segments
 e.g.
 app/products/[...rest].tsx
 
+----------------------------------------------------
+
+If you got _layout.tsx in these 3 levels:
+<root>/_layout.tsx              layout 1
+<root>/(app)/_layout.tsx        layout 2
+<root>/(auth)/_layout.tsx       layout 3
+<root>/(app)/about.tsx          << Got layout 1 + layout 2
+<root>/(auth)/register.tsx      << Got layout 1 + layout 3
+
+If you only got _layout.tsx in 2 levels:
+<root>/(app)/_layout.tsx        layout 2
+<root>/(auth)/_layout.tsx       layout 3
+<root>/(app)/about.tsx          << layout 2
+<root>/(auth)/register.tsx      << layout 3
+
+----------------------------------------------------
+
 
 http://localhost:8081/
 http://localhost:8081/about
