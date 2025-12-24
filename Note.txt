@@ -13,6 +13,7 @@ PS C:\react> npx create-expo-app@latest react-native-expo-router-tutorials-funda
 - npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 - npm run web
 
-
+PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npm run reset-project
+Do you want to move existing files to /app-example instead of deleting them? (Y/n): n
 
 
