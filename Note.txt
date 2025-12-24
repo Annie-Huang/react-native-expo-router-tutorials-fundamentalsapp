@@ -21,3 +21,5 @@ PS C:\react\react-native-expo-router-tutorials-fundamentalsapp> npx expo start
 http://localhost:8081/
 http://localhost:8081/about
 http://localhost:8081/profile
+http://localhost:8082/products
+http://localhost:8082/products/3
