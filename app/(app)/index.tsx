@@ -16,6 +16,7 @@ export default function Home() {
       <Link href='/profile/abc'>Profile abc</Link>
       <Link href='/products'>Products</Link>
       <Link href='/missing-route'>Missing route</Link>
+      <Link href='/login'>Login</Link>
 
       {/* asChild is to get the component to pass all its props to its first child component */}
       <Link href='products/best-sellers/playstation' asChild>
