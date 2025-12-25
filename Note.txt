@@ -46,6 +46,13 @@ If you only got _layout.tsx in 2 levels:
 
 asChild is to get the component to pass all its props to its first child component
 
+We need the 'relativeToDirectory' keyword because the current file name is index.tsx, otherwise we will not need to keyword */}
+In app/products/index.tsx
+    <Link href='./1' relativeToDirectory>
+        Product 1
+    </Link>
+In app/(auth)/login.tsx
+    <Link href='./register'>Create account</Link>
 
 
 

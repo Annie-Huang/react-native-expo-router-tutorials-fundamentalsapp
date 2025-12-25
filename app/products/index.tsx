@@ -6,7 +6,14 @@ const ProductList = () => {
   return (
     <View style={styles.container}>
       <Text>ProductList</Text>
-      <Link href='/products/1'>Product 1</Link>
+      {/*<Link href='/products/1'>Product 1</Link>*/}
+      {/* We need the 'relativeToDirectory' keyword because the current file name is index.tsx, otherwise we will not need to keyword.
+          Check app/(auth)/login.tsx for the other example
+       */}
+      <Link href='./1' relativeToDirectory>
+        Product 1
+      </Link>
+
       <Link href='/products/2'>Product 2</Link>
       <Link href='/products/3'>Product 3</Link>
 
