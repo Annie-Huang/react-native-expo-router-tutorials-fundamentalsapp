@@ -55,7 +55,9 @@ In app/(auth)/login.tsx
     <Link href='./register'>Create account</Link>
 
 
-
+router.push         << can use browser back button
+router.replace      << cannot use browser back button, trigger will go to '/' page
+router.back
 
 
 

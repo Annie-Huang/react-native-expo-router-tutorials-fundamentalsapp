@@ -11,7 +11,8 @@ const Login = () => {
       {/* Check the other example in app/products/index.tsx where we need to add the 'relativeToDirectory' keyword */}
       <Link href='./register'>Create account</Link>
 
-      <Button title='Login' onPress={() => router.push('/profile')} />
+      {/*<Button title='Login' onPress={() => router.push('/profile')} />*/}
+      <Button title='Login' onPress={() => router.replace('/profile')} />
     </View>
   );
 };
