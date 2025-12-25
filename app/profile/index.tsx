@@ -1,7 +1,14 @@
+import { Redirect } from 'expo-router';
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const Profile = () => {
+  const isLoggedIn = false;
+
+  if (!isLoggedIn) {
+    return <Redirect href='/login' />;
+  }
+
   return (
     <View style={styles.container}>
       <Text>Profile</Text>
@@ -16,6 +23,5 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-  }
-})
-
+  },
+});

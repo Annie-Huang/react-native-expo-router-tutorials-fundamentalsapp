@@ -59,6 +59,12 @@ router.push         << can use browser back button
 router.replace      << cannot use browser back button, trigger will go to '/' page
 router.back
 
+<Redirect href='/login' />
+
+
+
+
+-----------------------------------------
 
 
 http://localhost:8081/
