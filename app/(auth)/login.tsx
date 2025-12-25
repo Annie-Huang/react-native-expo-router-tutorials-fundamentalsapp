@@ -1,7 +1,7 @@
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
 import React from 'react';
 
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 const Login = () => {
   return (
@@ -10,6 +10,8 @@ const Login = () => {
 
       {/* Check the other example in app/products/index.tsx where we need to add the 'relativeToDirectory' keyword */}
       <Link href='./register'>Create account</Link>
+
+      <Button title='Login' onPress={() => router.push('/profile')} />
     </View>
   );
 };
