@@ -1,8 +1,12 @@
 Expo Router Tutorial
 (https://www.youtube.com/playlist?list=PLC3y8-rFHvwgVmqbtQkPDxkvDf6w5_eGA)
 
-https://github.com/gopinav/Expo-Router-Tutorials
+https://github.com/gopinav/Expo-Router-Tutorials/tree/main/FundamentalsApp
 https://github.com/Annie-Huang/react-native-expo-router-tutorials-fundamentalsapp
+
+https://github.com/gopinav/Expo-Router-Tutorials/tree/main/NavigationApp
+this one the only different is that it is using <Stack> in https://github.com/gopinav/Expo-Router-Tutorials/blob/main/NavigationApp/app/_layout.tsx file
+
 
 --------------------------------------------------------------------------------------------
 
